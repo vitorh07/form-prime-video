@@ -1,0 +1,129 @@
+/* Estilo para toda página */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Para o Menu */
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+
+ul {
+    margin-left: 10px;
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.logo {
+    width: 130px;
+    padding: 8px;
+}
+
+.menu {
+    width: 100%;
+    color: #f0f0f0;
+    background-color: #19242F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    display: flex;
+}
+
+.user{
+    position: absolute;
+    right: 30px;
+}
+
+/* Para o section */
+.inicio {
+    width: 100%;
+    background-image: url(../img/capa_site.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+/* div principal que está no section */
+.dv-first {
+    color: #f0f0f0;
+    max-width: 630px;
+    width: 100%;
+    padding: 60px;
+    font-size: 1.8rem;
+}
+
+/* Primeiro texto */
+p {
+    font-size: 1.4rem;
+}
+
+/* botão inscreva-se */
+.btn {
+    background-color: #0f79af;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* imagem divisão dos botões */
+.i {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    width: 320px;
+}
+
+/* Último texto da section */
+span {
+    font-size: 1.1rem;
+}
+
+
+/* sessão tabela precos */
+
+.tabela_precos {
+    width: 100%;
+    background-color: #000;
+    background-image: url('../img/capa_precos.jpg');
+    background-position: right;
+    color: #f0f0f0;
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* colocando fundo na tabela */
+table {
+    background-color: #f0f0f0;
+}
+
+/* Para tabela zebrada
+    tbody tr:nth-child(odd){
+    background-color: aqua;
+} */
+
+/* colocando fundo nas celulas e nos cabeçalhos*/
+td, th {
+    background-color: rgb(15, 121, 175);
+}
+
+/* determinando um espaçamento interno para o cabeçalho */
+th {
+    padding: 30px;
+}
+
+/* deixando os textos centralizados e determinando um espaçamento interno para as celulas */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+
